@@ -1,0 +1,6 @@
+1. Create a single linked list of integers. The values in each node must not be sorted.
+  The number of nodes in the list must be at least 15.
+  Traverse the list and print each value in the node.
+
+2. Sort the list.  Sort it so that you DO NOT swap the values in the nodes. But you MUST swap the complete node.
+  Traverse the list again and print each value in the node.
