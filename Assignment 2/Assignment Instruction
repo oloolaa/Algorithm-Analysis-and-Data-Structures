@@ -1,0 +1,15 @@
+1. We covered Binary search in the class. Given an array of sorted numbers, you can search for an item using binary search. 
+  Modify the algorithm so that you do tertiary search.  So in each iteration you divide into 3 parts.
+  The program must be done using recursion. 
+
+  Remember there are NO GLOBAL variables allowed.  NO static variables allowed.
+
+   Run the program 4 times.
+
+   1. Your array is a size of 15 numbers.  The number you are looking for is in the array.
+
+   2. Your array is a size of 15 numbers.  The number you are looking for is NOT in the array.
+
+   3. Your array is a size of 16 numbers.  The number you are looking for is in the array.
+
+   4. Your array is a size of 16 numbers.  The number you are looking for is NOT in the array.
