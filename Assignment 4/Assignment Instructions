@@ -1,0 +1,11 @@
+Create an undirected graph of at least 10 vertices and 15 edges.
+
+Draw the graph and include the graph image in your submission.
+
+1. Do A DFS traversal on the graph.
+   Print the graph before traversal - adjacency matrix or adjacency list.
+   Print the start vertex of your dfs.
+   Print the nodes in the order they were visited.
+
+2. Do a BFS traversal for the same graph.
+   Print the nodes in the order they are visited for the dfs traversal.
