@@ -1,0 +1,9 @@
+  Given an array of numbers. Convert the numbers into heap, using floyd's method. At least 10 numbers,
+
+  1. Print the array before it is converted to heap
+
+  2. Print the heap after it is converted to heap
+
+  3. Then insert a new number into heap. and print the array
+
+  4. Then delete a number in the heap and print the array
