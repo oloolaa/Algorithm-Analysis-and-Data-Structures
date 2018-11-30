@@ -47,7 +47,6 @@ public class myHashTable {
             hashValue += c;
         }
         // 2. See if there is collision.
-        boolean collisionHappen = false;
         int index = hashValue % table.length;
         for (int i = 1; ; i++){
             // 2.1 There is no collision.
@@ -57,11 +56,8 @@ public class myHashTable {
             // 2.2 There is collision.
             else {
                 index = (hashValue + i * i) % table.length;
-                collisionHappen = true;
+                collisionTimes++;
             }
-        }
-        if (collisionHappen){
-            collisionTimes++;
         }
         return index;
     }
@@ -81,7 +77,6 @@ public class myHashTable {
         // Move the elements to the new array.
         // And also, update all the values.
         table = new String[tmp];
-        collisionTimes = 0;
         for (String s : wordsForRehash){
             table[computeHash(s)] = s;
         }
